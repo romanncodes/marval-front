@@ -1,0 +1,89 @@
+
+.find-product{
+    display: grid;
+    grid-template-columns: 100%;
+    align-items: center;
+    gap: 10px;
+    background-color: rgb(251, 253, 255);
+    padding: 20px 20px;
+    box-shadow: 1px 1px 5px gray;
+    border-radius: 2px;
+    margin-top: 5px;
+}
+.find-product input{
+    height: 30px;
+    font-size: 18px;
+}
+.find-product input:focus{
+    outline: none;
+}
+
+table{
+    width: 100%;
+    background-color: white;
+    padding: 8px;
+    box-shadow: 1px 1px 5px gray;
+    border-radius: 2px;
+}
+
+.text-left{
+    text-align: left;
+}
+.border-down{
+    border-bottom:1px solid grey;
+}
+.size-10{
+    font-size: 12px;
+    color:rgb(81, 79, 79);
+}
+
+
+
+#product-detail, #ingredient-detail tr:hover{
+  background-color: rgba(227, 246, 226, 0.654);
+  cursor: pointer;
+  color: grey;
+}
+#ingredient-detail-db tr:hover{
+  background-color: rgba(227, 246, 226, 0.654);
+  cursor: pointer;
+  color: grey;
+}
+#product-detail td{
+  padding: 10px;
+}
+#ingredient-detail, #ingredient-detail td{
+  padding-left: 10px;
+  font-size: 14px;
+}
+#ingredient-detail-db td{
+  padding-left: 10px;
+  font-size: 14px;
+}
+
+#product-head, #ingredient-head th{
+  padding: 10px;
+}
+#ingredient-head-db th{
+  padding: 10px;
+}
+#product-head, #ingredient-head, #ingredient-head-db tr{
+  background-color: #398f33;
+  color: white;
+}
+.header-inv{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#product-detail, #ingredient-detail, #ingredient-detail-db{
+  border-collapse: collapse;
+}
+.modal-container{
+  margin: 0;
+  padding: 0;
+}
+#table-product,#table-ingredient, #table-ingredient-db{
+  margin: 0;
+  padding: 0;
+}
